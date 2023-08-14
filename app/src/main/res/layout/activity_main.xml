@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <Space
+            android:layout_width="56dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp"
+            android:fontFamily="@font/brawler"
+            android:gravity="center"
+            android:text="Capital Cities"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <ImageButton
+            android:id="@+id/info"
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_info"
+            android:background="?android:selectableItemBackgroundBorderless"/>
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/tashkent"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/tashkent"
+                android:clickable="true"
+                android:focusable="true">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#7C000000">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:fontFamily="@font/brawler"
+                        android:text="Tashkent"
+                        android:textColor="#C6C6C6"
+                        android:textSize="40sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|end"
+                        android:layout_margin="30dp"
+                        android:background="@drawable/circular_corner"
+                        android:fontFamily="@font/brawler"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="more..."
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </FrameLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/paris"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/paris"
+                android:clickable="true"
+                android:focusable="true">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#7C000000">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:fontFamily="@font/brawler"
+                        android:text="Paris"
+                        android:textColor="#C6C6C6"
+                        android:textSize="40sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|end"
+                        android:layout_margin="30dp"
+                        android:background="@drawable/circular_corner"
+                        android:fontFamily="@font/brawler"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="more..."
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </FrameLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/rome"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rome"
+                android:clickable="true"
+                android:focusable="true">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#7C000000">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:fontFamily="@font/brawler"
+                        android:text="Rome"
+                        android:textColor="#C6C6C6"
+                        android:textSize="40sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|end"
+                        android:layout_margin="30dp"
+                        android:background="@drawable/circular_corner"
+                        android:fontFamily="@font/brawler"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="more..."
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </FrameLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/moscow"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/moscow"
+                android:clickable="true"
+                android:focusable="true">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#7C000000">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:fontFamily="@font/brawler"
+                        android:text="Moscow"
+                        android:textColor="#C6C6C6"
+                        android:textSize="40sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|end"
+                        android:layout_margin="30dp"
+                        android:background="@drawable/circular_corner"
+                        android:fontFamily="@font/brawler"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="more..."
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </FrameLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/washington"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/washington"
+                android:clickable="true"
+                android:focusable="true">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#7C000000">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="Washington"
+                        android:fontFamily="@font/brawler"
+                        android:textColor="#C6C6C6"
+                        android:textSize="40sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|end"
+                        android:layout_margin="30dp"
+                        android:background="@drawable/circular_corner"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="more..."
+                        android:fontFamily="@font/brawler"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </FrameLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/singapore"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/singapore"
+                android:clickable="true"
+                android:focusable="true">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#7C000000">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="Singapore"
+                        android:fontFamily="@font/brawler"
+                        android:textColor="#C6C6C6"
+                        android:textSize="40sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|end"
+                        android:layout_margin="30dp"
+                        android:background="@drawable/circular_corner"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="more..."
+                        android:fontFamily="@font/brawler"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </FrameLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/berlin"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/berlin"
+                android:clickable="true"
+                android:focusable="true">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#7C000000">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="Berlin"
+                        android:fontFamily="@font/brawler"
+                        android:textColor="#C6C6C6"
+                        android:textSize="40sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|end"
+                        android:layout_margin="30dp"
+                        android:background="@drawable/circular_corner"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="more..."
+                        android:fontFamily="@font/brawler"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </FrameLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/london"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/london"
+                android:clickable="true"
+                android:focusable="true">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#7C000000">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="London"
+                        android:fontFamily="@font/brawler"
+                        android:textColor="#C6C6C6"
+                        android:textSize="40sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|end"
+                        android:layout_margin="30dp"
+                        android:background="@drawable/circular_corner"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:fontFamily="@font/brawler"
+                        android:text="more..."
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </FrameLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/seoul"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/seoul"
+                android:clickable="true"
+                android:focusable="true">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#7C000000">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="Seoul"
+                        android:fontFamily="@font/brawler"
+                        android:textColor="#C6C6C6"
+                        android:textSize="40sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|end"
+                        android:layout_margin="30dp"
+                        android:background="@drawable/circular_corner"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:fontFamily="@font/brawler"
+                        android:text="more..."
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </FrameLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/oslo"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/oslo"
+                android:clickable="true"
+                android:focusable="true">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#7C000000">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="Oslo"
+                        android:fontFamily="@font/brawler"
+                        android:textColor="#C6C6C6"
+                        android:textSize="40sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|end"
+                        android:layout_margin="30dp"
+                        android:background="@drawable/circular_corner"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:fontFamily="@font/brawler"
+                        android:text="more..."
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </FrameLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="bottom" />
+</LinearLayout>
