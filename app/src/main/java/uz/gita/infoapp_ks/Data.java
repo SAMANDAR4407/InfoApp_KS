@@ -31,9 +31,7 @@ public class Data extends AppCompatActivity {
             int number = extra.getInt(NUMBER,0);
             loadData(number);
         }
-        findViewById(R.id.btn_back).setOnClickListener(v -> {
-            finish();
-        });
+        findViewById(R.id.btn_back).setOnClickListener(v -> finish());
     }
 
     private void loadData(int number) {
